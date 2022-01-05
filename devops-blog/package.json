@@ -1,0 +1,27 @@
+{
+  "name": "sylejmani-nour",
+  "version": "1.0.0",
+  "description": "DEVOPS tp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visarsylejmani/devops-tp.git"
+  },
+  "author": "sylejmani nour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visarsylejmani/devops-tp/issues"
+  },
+  "homepage": "https://github.com/visarsylejmani/devops-tp#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0"
+  }
+}
