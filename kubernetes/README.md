@@ -3,8 +3,20 @@
 
 :construction_worker: Nour :construction_worker: Sylejmani
 
+```sh
+kubectl create namespace devops
 ```
-kubectl create -n devops secret docker-registry regcred --docker-server=docker.pkg.github.com --docker-username=visarsylejmani --docker-password=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
 
-kubectl create -n devops secret generic mongosecret --from-file=mongodb-secret.yaml
+```sh
+kubectl create -n devops secret docker-registry regcred --docker-server=docker.pkg.github.com --docker-username=visarsylejmani --docker-password=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
 ```
+
+```sh
+kubectl create -n devops -f .\kubernetes.yaml
+```
+
+```sh
+kubectl proxy --port=8080
+```
+
+:earth_africa: http://127.0.0.1:8080/api/v1/namespaces/devops/services/node/proxy
