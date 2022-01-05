@@ -3,8 +3,8 @@ version: '3.1'
 
 services:
   blog:
-    image: docker.pkg.github.com/visarsylejmani/devops-tp/devops-tp:latest
-    restart : unless-stopped
+    image: docker.pkg.github.com/visarsylejmani/devops-tp/devops-blog:latest
+    restart : always
     ports:
       - 3000:3000
     depends_on:
