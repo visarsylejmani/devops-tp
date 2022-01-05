@@ -18,10 +18,12 @@ jobs:
       run: docker build devops-blog --tag devops-tp -f devops-blog/Dockerfile
     - 
       name: Push to GitHub Packages
-      uses: docker/build-push-action@v1
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
+        image: devops-tp/devops-blog
+        tags: latest
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
-        repository: visarsylejmani/devops-tp/devops-tp
-        tag_with_ref: true
+        directory: devops-blog
+        dockerfile: devops-blog/Dockerfile
