@@ -8,7 +8,7 @@ kubectl create namespace devops
 ```
 
 ```sh
-kubectl create -n devops secret docker-registry regcred --docker-server=docker.pkg.github.com --docker-username=visarsylejmani --docker-password=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
+kubectl create -n devops secret docker-registry regcred --docker-server=docker.pkg.github.com
 ```
 
 ```sh
