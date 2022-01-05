@@ -20,3 +20,7 @@ kubectl proxy --port=8080
 ```
 
 :earth_africa: http://127.0.0.1:8080/api/v1/namespaces/devops/services/node/proxy
+
+```sh
+kubectl delete namespace devops 
+```
