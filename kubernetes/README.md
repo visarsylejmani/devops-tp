@@ -1,8 +1,7 @@
 
 # TP - Partie 2 - kubernetes
 
-### :construction_worker: Sylejmani
-### :construction_worker: Nour
+:construction_worker: Nour :construction_worker: Sylejmani
 
 ```
 kubectl create -n devops secret docker-registry regcred --docker-server=docker.pkg.github.com --docker-username=visarsylejmani --docker-password=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
