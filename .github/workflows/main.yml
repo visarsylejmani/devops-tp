@@ -15,7 +15,7 @@ jobs:
       env:
         SUPER_SECRET: ${{ secrets.DOCKER_USERNAME }}
       run: |
-        echo "$SUPER_SECRET
+        echo $SUPER_SECRET
     - 
       uses: actions/checkout@v2
     - 
