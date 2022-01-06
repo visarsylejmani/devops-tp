@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - shell: bash
-      env:
-        SUPER_SECRET: ${{ secrets.DOCKER_USERNAME }}
       run: |
-        example-command "$SUPER_SECRET"
+        echo ${{ secrets.DOCKER_USERNAME }}
     - 
       uses: actions/checkout@v2
     - 
