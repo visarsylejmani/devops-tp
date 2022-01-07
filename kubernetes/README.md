@@ -4,10 +4,6 @@
 :construction_worker: Nour :construction_worker: Sylejmani
 
 ```sh
-kubectl create namespace devops
-```
-
-```sh
 kubectl create -f .\kubernetes.yaml
 ```
 
