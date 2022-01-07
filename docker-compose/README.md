@@ -4,11 +4,11 @@
 :construction_worker: Nour :construction_worker: Sylejmani
 
 ```sh
-docker-compose up -d
+docker compose -p sylejmani-nour-tp up -d --build
 ```
 
 ```sh
-docker-compose down
+docker compose -p sylejmani-nour-tp down
 ```
 
 :earth_africa: http://localhost:3000/
